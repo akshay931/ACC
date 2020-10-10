@@ -40,10 +40,10 @@ int main(int argc,char **argv)
 	find_dupl(mdata);
 	if(dupl_count>0){
 		gettimeofday(&t,NULL);
-		starttime = t.tv_sec;
+		starttime = t.tv_usec;
 		remove_dupl(mdata);
 		gettimeofday(&t,NULL);
-		endtime = t.tv_sec;
+		endtime = t.tv_usec;
 		cout<<"\nremove duplicate function takes "<<endtime-starttime <<" microseconds"<<endl;
 		cout<<endl<<"Duplicate values removed\n"<<endl;
 	}
