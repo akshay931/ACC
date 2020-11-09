@@ -1,4 +1,4 @@
-# acc assignment 1
+# acc assignment 
 p20co001@coed.svnit.ac.in
 
 this code successfully compiled on linux , if you try to compile on windows it may throw error
